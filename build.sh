@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ./bootstrap
 make
 sudo make install
