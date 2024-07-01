@@ -2024,7 +2024,7 @@ export CXXFLAGS
 export LDFLAGS
 
 # Run bootstrap CMake to configure real CMake
-cmake_options="-DCMAKE_BOOTSTRAP=1"
+cmake_options="-DCMAKE_BOOTSTRAP=1 -DCMAKE_USE_OPENSSL=OFF"
 if test -n "${cmake_verbose}"; then
   cmake_options="${cmake_options} -DCMAKE_VERBOSE_MAKEFILE=1"
 fi
